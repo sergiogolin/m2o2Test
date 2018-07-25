@@ -81,7 +81,7 @@ class RecipeService
             ]);
         }
 
-        return $results;
+        return json_encode($results);
     }
 
     private function recipeHasCategory($recipe) {
